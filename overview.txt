@@ -1,0 +1,39 @@
+Project Structure Overview
+app Directory: This contains the main application files. In this structure, it appears to use a tab-based navigation setup, which is common in mobile apps.
+
+tabs Directory: Contains the different tabs of your application.
+_layout.tsx: Defines the layout of your tabs.
++html.tsx: Likely a screen related to handling HTML files.
++not-found.tsx: A fallback screen for when a tab is not found.
+assets Directory: Typically contains images, fonts, and other static resources.
+
+components Directory: Holds reusable UI components.
+
+__tests__: Usually contains test files for your components.
+navigation Directory: Manages the navigation logic of the app.
+
+Collapsible.tsx: A component for a collapsible view.
+ExternalLink.tsx: A component for handling external links.
+HelloWave.tsx: Possibly a welcoming or animation component.
+ParallaxScrollView.tsx: A component for a parallax scrolling effect.
+ThemedText.tsx: A text component with theme support.
+ThemedView.tsx: A view component with theme support.
+constants Directory: Contains constant values used throughout the app.
+
+hooks Directory: Custom hooks for your app.
+
+useColorScheme.ts: A hook to manage color schemes.
+useColorScheme.web.ts: Web-specific version of the color scheme hook.
+useThemeColor.ts: A hook to manage theme colors.
+scripts Directory: Contains scripts for build processes or other automation tasks.
+
+Root Files:
+
+.gitignore: Specifies which files and directories should be ignored by Git.
+app.json: Configuration file for your Expo app.
+babel.config.js: Babel configuration file.
+expo-env.d.ts: TypeScript declaration file for Expo environment variables.
+package-lock.json: Describes the exact versions of dependencies installed.
+package.json: Lists the project's dependencies and scripts.
+README.md: Documentation for the project.
+tsconfig.json: TypeScript configuration file.
