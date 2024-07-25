@@ -1,0 +1,18 @@
+we are creating a simple filemanager app with the following features
+~Three screens in total [Home, Starred and Files]
+
+~Home: will contain a summary of your device storage that is
+        -Show your device available strorage and used storage
+        - A search bar where a user can search of any file or folder by name 
+        This will also have the option of filtering the search results
+        -individuals tabs that contain quick shortcuts to all files in a said filtered cartegory
+            eg. A tab nameed videos will show available all videos on the device
+            these individual tabs may include but not limited to 
+            *videos *Music *Docuuments *Locked etc
+
+Starred: will contain all files and folders that have been added to your favorites
+             This will serve as a quick hyperlink to all favorite files and folders
+             This said quick link will take a user to the content of the clicked file or folder
+             without the need to navigate to it traditionally
+
+~Files: This will generally show all files on the device, where the user can interract and manipulate these files and folders as they see fit 
